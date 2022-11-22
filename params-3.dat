@@ -1,0 +1,25 @@
+# Best-fit model results for imfit 1.8.0 (OpenMP-enabled)
+# Generated on Sat Nov 19 14:06:21 2022 by the following command:
+#    imfit NGC5772_i.fits -c config_sersic_exp.dat --sky=203.02283 --mask=NGC5772_mask2D_new.fits --gain=4.86 --readnoise=4.6225 --save-model=model-3.fits --save-residual=resid-3.fits --save-params=params-3.dat --psf=psf_moffat_51.fits
+
+# Results of fit:
+#   Algorithm: Levenberg-Marquardt: status = 1 -- SUCCESS: Convergence in fit-statistic value.
+#   Fit statistic: chi-squared (data-based errors)
+#   Best-fit value: 427464.058757
+#   Reduced value: 8.371471
+#   AIC: 427486.063928
+#   BIC: 427583.309881
+
+X0		341.5238 # +/- 0.0037
+Y0		279.0000 # +/- 0.0000
+FUNCTION Sersic
+PA		     90 # +/- 0
+ell		0.180756 # +/- 0.0017722
+n		 3.0227 # +/- 0.0068654
+I_e		    500 # +/- 0
+r_e		8.08782 # +/- 0.012765
+FUNCTION Exponential
+PA		     90 # +/- 0
+ell		0.459254 # +/- 0.00080104
+I_0		 344.52 # +/- 0.7238
+h		40.1769 # +/- 0.059896

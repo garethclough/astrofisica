@@ -1,0 +1,19 @@
+# Best-fit model results for imfit 1.8.0 (OpenMP-enabled)
+# Generated on Sat Nov 19 13:07:26 2022 by the following command:
+#    imfit NGC5772_i.fits -c config_exponential.dat --sky=130.14 --mask=NGC5772_mask2D_new.fits --save-model=model-1.fits --save-residual=resid-1.fits
+
+# Results of fit:
+#   Algorithm: Levenberg-Marquardt: status = 1 -- SUCCESS: Convergence in fit-statistic value.
+#   Fit statistic: chi-squared (data-based errors)
+#   Best-fit value: 300533.990044
+#   Reduced value: 5.885092
+#   AIC: 300545.991689
+#   BIC: 300599.036112
+
+X0		341.3403 # +/- 0.0537
+Y0		279.0000 # +/- 0.0000
+FUNCTION Exponential
+PA		     90 # +/- 0
+ell		0.417723 # +/- 0.0012368
+I_0		    500 # +/- 0
+h		33.4067 # +/- 0.043648

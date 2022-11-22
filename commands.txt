@@ -1,0 +1,8 @@
+imfit NGC5772_i.fits -c config_exponential.dat --sky=203.02283 --mask=NGC5772_mask2D_new.fits --gain=4.86 --readnoise=4.6225 --save-model=model-1.fits --save-residual=resid-1.fits --save-params=params.dat --psf=psf_moffat_51.fits
+imfit NGC5772_i.fits -c config_sersic.dat --sky=203.02283 --mask=NGC5772_mask2D_new.fits --gain=4.86 --readnoise=4.6225 --save-model=model-2.fits --save-residual=resid-2.fits --save-params=params-2.dat --psf=psf_moffat_51.fits
+imfit NGC5772_i.fits -c config_sersic_exp.dat --sky=203.02283 --mask=NGC5772_mask2D_new.fits --gain=4.86 --readnoise=4.6225 --save-model=model-3.fits --save-residual=resid-3.fits --save-params=params-3.dat --psf=psf_moffat_51.fits
+imfit NGC5772_i.fits -c config_sersic_exp.dat --sky=203.02283 --save-model=model-4.fits --save-residual=resid-4.fits --save-params=params-4.dat
+imfit NGC5772_i.fits -c config_sersic_exp.dat --sky=203.02283 --gain=4.86 --save-model=model-5.fits --save-residual=resid-5.fits --save-params=params-5.dat
+imfit NGC5772_i.fits -c config_sersic_exp.dat --sky=203.02283 --gain=4.86 --readnoise=4.6225 --save-model=model-6.fits --save-residual=resid-6.fits --save-params=params-6.dat
+imfit NGC5772_i.fits -c config_sersic_exp.dat --sky=203.02283 --gain=4.86 --readnoise=4.6225 --save-model=model-7.fits --save-residual=resid-7.fits --save-params=params-7.dat --bootstrap 500 --save-bootstrap=bootstrap_output_7.dat
+imfit NGC5772_i.fits -c config_sersic_exp_moffat.dat --sky=203.02283 --gain=4.86 --readnoise=4.6225 --save-model=model-8.fits --save-residual=resid-8.fits --save-params=params-8.dat --bootstrap 500 --save-bootstrap=bootstrap_output_8.dat
