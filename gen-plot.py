@@ -13,7 +13,7 @@ def radial_profile(data, center):
     tbin = np.bincount(r.ravel(), data.ravel())
     nr = np.bincount(r.ravel())
     radialprofile = tbin / nr
-    return radialprofile 
+    return radialprofile
 
 
 fitsFile = fits.open('model-6.fits')
@@ -24,7 +24,7 @@ img = fitsFile[0].data
 img[np.isnan(img)] = 0
 
 center = np.unravel_index(img.argmax(), img.shape)
-center = (342,281)
+center = (278,342)
 print(center)
 
 print(img.shape)
@@ -32,7 +32,7 @@ print(img.shape)
 rad_profile = radial_profile(img, center)
 
 fig, ax = plt.subplots()
-plt.plot(rad_profile[0:500], 'x-')
+plt.plot(rad_profile[0:500], 'b')
 
 ax.xaxis.set_minor_locator(minorLocator)
 
@@ -54,7 +54,7 @@ img = fitsFile[0].data
 img[np.isnan(img)] = 0
 
 center = np.unravel_index(img.argmax(), img.shape)
-center = (342,281)
+center = (278,342)
 print(center)
 
 print(img.shape)
@@ -62,7 +62,7 @@ print(img.shape)
 rad_profile = radial_profile(img, center)
 
 fig, ax = plt.subplots()
-plt.plot(rad_profile[0:500], 'x-')
+plt.plot(rad_profile[0:500], 'b')
 
 ax.xaxis.set_minor_locator(minorLocator)
 
