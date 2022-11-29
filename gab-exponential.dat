@@ -1,0 +1,19 @@
+# Best-fit model results for imfit 1.8.0 (OpenMP-enabled)
+# Generated on Tue Nov 29 19:10:48 2022 by the following command:
+#    imfit NGC5772_i.fits -c gab_config_exponential.dat --sky=203.02283 --mask=NGC5772_mask2D_new.fits --gain=4.86 --readnoise=4.6225 --psf psf_moffat_51.fits --save-model=model-gab-exponential.fits --save-residual=model-gab-exponential-resid.fits --save-params=gab-exponential.dat
+
+# Results of fit:
+#   Algorithm: Levenberg-Marquardt: status = 1 -- SUCCESS: Convergence in fit-statistic value.
+#   Fit statistic: chi-squared (data-based errors)
+#   Best-fit value: 1170960.890411
+#   Reduced value: 22.929894
+#   AIC: 1170972.892056
+#   BIC: 1171025.936479
+
+X0		341.2755 # +/- 0.0177
+Y0		277.9230 # +/- 0.0110
+FUNCTION Exponential
+PA		100.397 # +/- 0.048792
+ell		0.42068 # +/- 0.00056575
+I_0		851.515 # +/- 0.88774
+h		24.4471 # +/- 0.020694

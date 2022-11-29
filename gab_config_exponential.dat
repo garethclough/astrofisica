@@ -2,11 +2,11 @@
 # More specifically, it specifies an Exponential model for use in fitting a 
 # 256x256-pixel SDSS r-band cutout image of the galaxy IC 3478.
 
-X0   342.0    340,344
-Y0   281.0    279,285
+X0      341.2751
+Y0      277.9228
 FUNCTION Exponential
-PA    -75    -90,180
-ell    0.4    0,1
-I_0    1000    0,1000
-h      25     0,100
+PA      100.397
+ell     0.420671
+I_0     851.617
+h        24.445
 

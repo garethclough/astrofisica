@@ -19,4 +19,6 @@ with open('NGC5772_i.txt') as f:
             print(str(x) + ' ' + str(y))
         count += 1
 plt.plot(xArray, yArray,'r--')
+plt.show()
 plt.savefig('NGC5772_i-txt.png')
+ plt.get_backend()
